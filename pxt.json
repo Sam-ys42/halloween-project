@@ -1,0 +1,30 @@
+{
+    "name": "halloween project",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "power": "github:microbit-foundation/pxt-microbit-v2-power#v0.2.3",
+        "microbit-pxt-timeanddate": "github:bsiever/microbit-pxt-timeanddate#v2.0.33",
+        "midi": "github:microsoft/pxt-midi#v2.2.0",
+        "gamerbit": "github:sparkfun/pxt-gamer-bit#v0.0.9"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "target": "7.0.51",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
